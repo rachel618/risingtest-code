@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" id="e89ca951-7d5f-47ff-8fac-39d9317ba748" port="22" customName="prod.developer-jihyun.site" nameFormat="CUSTOM">
+        <option name="customName" value="prod.developer-jihyun.site" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

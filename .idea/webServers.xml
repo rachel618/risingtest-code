@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="12a6fbb3-24d0-44bd-8ef6-169ab3b1a4b1" name="dev.developer-jihyun.site" url="http://dev.developrt-jihyun.site">
+        <fileTransfer accessType="SFTP" host="13.124.101.166" port="22" sshConfigId="28b46315-3c9b-4404-a4d3-62f0fad5039a" sshConfig="ubuntu@13.124.101.166:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="997d65a7-e1c9-40f7-9101-a3d3ccc826f3" name="prod.developer-jihyun.site">
+        <fileTransfer accessType="SFTP" port="22" sshConfigId="e89ca951-7d5f-47ff-8fac-39d9317ba748" sshConfig="prod.developer-jihyun.site">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
